@@ -1,0 +1,47 @@
+.backGround {
+	-fx-background-color: #c4c4c4;
+}
+
+.font {
+	-fx-font-family: "Verdana";
+	-fx-font-size: 18;
+}
+
+.titleFont {
+	-fx-font-family: "Verdana";
+	-fx-font-size: 22;
+}
+
+.comboBox {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+.buttonMenu {
+	-fx-text-fill: #ffffff;
+	-fx-font-family: "Verdana";
+	-fx-font-size: 18;
+	-fx-background-color: #000000;
+	-fx-background-radius: 10;
+}
+
+.buttonMenu:hover {
+	-fx-text-fill: #ffffff;
+	-fx-font-family: "Verdana";
+	-fx-font-size: 18;
+	-fx-background-color: #2e2e2e;
+	-fx-background-radius: 10;
+	-fx-scale-x: 1.1;
+	-fx-scale-y: 1.1;
+}
+
+.tableView {
+    -fx-font-family: "Verdana";
+	-fx-font-size: 14;
+}
+
+.tableView .table-cell{
+    -fx-alignment: "CENTER";
+}
+

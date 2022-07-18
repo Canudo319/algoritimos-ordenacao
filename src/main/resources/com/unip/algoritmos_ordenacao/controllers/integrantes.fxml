@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="379.0" prefWidth="646.0" styleClass="backGround" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="72.0" prefWidth="304.0" styleClass="titleFont" text="Integrantes" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <GridPane layoutX="17.0" layoutY="60.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="304.0" prefWidth="616.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="62.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="471.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="145.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label styleClass="titleFont" text="CAINÃ ROZENBLUM CONTARIN" />
+            <Label layoutX="10.0" layoutY="39.0" styleClass="titleFont" text="N418DG3" GridPane.columnIndex="1" GridPane.halignment="RIGHT" />
+            <Label layoutX="10.0" layoutY="39.0" styleClass="titleFont" text="GUILHERME MESQUITA ROCHA" GridPane.rowIndex="3" />
+            <Label layoutX="10.0" layoutY="39.0" styleClass="titleFont" text="N443FG2" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+            <Label layoutX="10.0" layoutY="39.0" styleClass="titleFont" text="EDUARDO RICHARD FERRAZ DE CAMPOS" GridPane.rowIndex="1" />
+            <Label layoutX="10.0" layoutY="39.0" styleClass="titleFont" text="N4577E8" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <Label layoutX="10.0" layoutY="39.0" styleClass="titleFont" text="FILIPE BARROS FEITOSA" GridPane.rowIndex="2" />
+            <Label layoutX="10.0" layoutY="39.0" styleClass="titleFont" text="D945467" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
